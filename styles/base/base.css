@@ -1,0 +1,21 @@
+body {
+    background: skyblue;
+
+    color: black;
+
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+
+    margin-bottom: var(--spacing-lg);
+}
+
+small {
+    color: var(--text-secondary);
+}

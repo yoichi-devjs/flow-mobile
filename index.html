@@ -1,22 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Flow App</title>
-    </head>
-    <body>
-        <h1>My Flow</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Flow App</title>
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
+    <h1>My Flow</h1>
 
-        <!-- My task cards are not written in HTML anymore
+    <!-- My task cards are not written in HTML anymore
          but generated dinamically in renderTasks() 
          this way, I can focus more on JS code and less on the HTML structure -->
 
-        <!-- this is where project buttons will be rendered -->
-        <div id="projects"></div>
-        <!-- this is where the tasks will be rendered -->
-        <div id="app"></div>
+    <!-- this is where project buttons will be rendered -->
+    <div id="projects"></div>
+    <!-- this is where the tasks will be rendered -->
+    <div id="app"></div>
 
-        <script type="module" src="./scripts/app.js"></script>
-    </body>
+    <script type="module" src="./scripts/app.js"></script>
+  </body>
 </html>

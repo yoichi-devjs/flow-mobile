@@ -1,0 +1,36 @@
+#projects {
+    display: flex;
+
+    gap: 12px;
+
+    overflow-x: auto;
+
+    margin-bottom: 24px;
+
+    padding-bottom: 10px;
+}
+
+#projects button {
+
+    border: none;
+
+    color: grey;
+
+    padding: 14px 18px;
+
+    border-radius: 18px;
+
+    min-width: max-content;
+
+    font-weight: bold;
+
+    transition: var(--transition);
+
+    box-shadow: var(--shadow);
+
+    text-shadow: black;
+}
+
+#projects button:active {
+    transform: scale(0.96);
+}

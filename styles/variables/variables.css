@@ -1,0 +1,21 @@
+:root {
+
+    --bg-primary: #f1f5f9;
+
+    --bg-card: #ffffff;
+
+    --text-primary: #0f172a;
+
+    --text-secondary: #475569;
+
+    --shadow:
+        0 6px 18px rgba(15,23,42,0.08);
+
+    --radius-lg: 20px;
+    --radius-md: 12px;
+
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+
+    --transition: 0.2s ease;
+}

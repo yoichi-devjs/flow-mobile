@@ -108,22 +108,7 @@ const defaultTasks = [
 
         createdAt: "2026-05-23",
         dueDate: null
-    },
-    {
-      id: "t6",
-      projectId: "p6",
-
-      title: "SaaS for Threads",
-      description: "My first income",
-
-      status: "todo",
-
-      priority: "high",
-
-      createdAt: null,
-      dueDate: "2026-06-15"
-    }
-];
+    }];
 
 // 2.1 - load saved tasks if they exist
 const savedTasks = localStorage.getItem("tasks");
